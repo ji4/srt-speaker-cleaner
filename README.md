@@ -21,9 +21,9 @@ sed 's/^Speaker [0-9]*: //g' input.srt > output.srt
 
 ### Download Script
 ```bash
-curl -O https://raw.githubusercontent.com/yourusername/speaker-remover/main/remove-speaker-prefix.sh
-chmod +x remove-speaker-prefix.sh
-./remove-speaker-prefix.sh input.srt output.srt
+curl -O https://raw.githubusercontent.com/yourusername/speaker-remover/main/remove_speaker_prefix.sh
+chmod +x remove_speaker_prefix.sh
+./remove_speaker_prefix.sh input.srt output.srt
 ```
 
 ## 📦 Installation
@@ -34,7 +34,7 @@ chmod +x remove-speaker-prefix.sh
 mkdir -p ~/bin
 
 # 2. Copy script
-cp remove-speaker-prefix.sh ~/bin/rmspeaker
+cp remove_speaker_prefix.sh ~/bin/rmspeaker
 chmod +x ~/bin/rmspeaker
 
 # 3. Add to PATH
@@ -97,7 +97,7 @@ done
 
 **Permission denied?**
 ```bash
-chmod +x remove-speaker-prefix.sh
+chmod +x remove_speaker_prefix.sh
 ```
 
 **Command not found?**
